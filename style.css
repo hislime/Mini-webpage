@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html, 
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.4em;
+}
+
+/* link */
+a{
+   color: #333; 
+   text-decoration: none;
+}
+.logo{
+    color: gold;
+}
+.container{
+ margin: auto;
+ max-width: 1100px;
+ overflow: auto;
+ padding: 0 20px;
+}
+
+#navbar{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a{
+    color: #fff;
+}
+#navbar h1{
+float: left;
+padding: 20px;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+    
+}
+
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}   
+#navbar ul li a:hover, #navbar ul li a.current{
+     background-color:#333 ;
+    color: #a34242;
+}
+.hero{
+    position: relative;
+    
+}
+.hero img{
+ display: block;
+width: 100%;
+height: 100vh;
+
+}
+.hero-content{   
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%);
+    color:rgb(252, 251, 247);
+    
+    
+}
+.hero-content h1{
+ 
+ font-size: larger;
+}
+.hero-content p{
+    color: rgb(240, 104, 26);
+    font-weight: bolder;
+    font-size: x-large;
+    
+}
+ 
+.hero-button{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: #f0e5e5;
+    background-color: rgb(136, 146, 146);
+}
+
+
+
+
+
+
+
+
